@@ -198,8 +198,12 @@ footer {
     grid-area: "header header social" "links main main" "footer footer footer"; }
 
   /*  ------------- HAMBURGER -------------  */
+  .hamburger {
+    display: none; }
+
   /*  ------------- NAV -------------  */
   nav {
+    float: left;
     height: auto; }
     nav ul li {
       border-bottom: 1px solid #302b27; }

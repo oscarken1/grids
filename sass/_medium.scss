@@ -10,11 +10,12 @@ div#wrapper {
 
 /*  ------------- HAMBURGER -------------  */
 .hamburger {
-
+	display: none;
 }
 
 /*  ------------- NAV -------------  */
 nav {
+	float: left;
 	height: auto;
 	ul li {border-bottom: 1px solid $primaryColor; }
 	ul li a {border-radius: 0; background-color: transparent; margin: 0;}
