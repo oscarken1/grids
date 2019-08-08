@@ -1,5 +1,11 @@
 div#wrapper {
-
+	grid-template-rows: 5rem auto auto 3rem;
+	grid-template-columns: auto 12rem;
+	grid-template-areas:
+		"header social"
+		"links links"
+		"main main"
+		"footer footer";
     
     
     
@@ -12,7 +18,8 @@ nav {
 	height: auto;
 	padding-left: $gutter;
 	ul {
-
+		display: grid;
+		grid-auto-columns: 9rem 9rem 9rem 9rem auto;
         
         
 	}

@@ -1,5 +1,10 @@
 div#wrapper {
-
+	grid-template-rows: 5rem auto 3rem;
+	grid-template-columns: 10rem auto 12rem;
+	grid-area:
+	"header header social"
+	"links main main"
+	"footer footer footer";
 }
 
 
